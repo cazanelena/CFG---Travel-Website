@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- Bootstrap CSS CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home">
+      <!-- nav bar-->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header-->
+          <div class="nav-header">
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links-->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="./reservations.html">reservations</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>See & Do</h1>
+          <p>Is your goal to run out of paces in your passport?</p>
+          <a href="./reservations.html" class="btn btn-white">Book a holiday</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section container-fluid">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+
+        <div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <img src="./images/24-hours-support.png" class="img-card-about" />
+              <h3 class="reservation_h3">24/7 Support</h3>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <img src="./images/percentage.png" class="img-card-about" />
+              <h3 class="reservation_h3">Lowest Prices Guarantee</h3>
+            </div>
+            <div class="col-lg-4">
+              <img src="./images/secure-payment.png" class="img-card-about" />
+              <h3 class="reservation_h3">Flexible Payments</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section container-fluid">
+      <div class="title">
+        <h2>Contact <span>us</span></h2>
+        <div class="contact-me">
+          <h3 class="contact-text">
+            If you like traveling as much as we do, get in touch.
+          </h3>
+          <h3 class="contact-text">Let's talk more about it!</h3>
+          <a class="btn contact-btn" href="mailto:cazan.elena23@yahoo.com"
+            >CONTACT US</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="sectior">
+      <p>
+        copyright &copy; travel tours company
+        <span id="date"></span>
+        .all rights reserved
+      </p>
+    </footer>
+    <!-- back tp top button-->
+    <a href="#home" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
